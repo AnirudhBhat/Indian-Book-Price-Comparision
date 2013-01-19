@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <link rel="stylesheet" type="text/css" href="style.css" />
+     <title>online price comparision</title>
+  </head>
+  <body>
+    <div>
+       <h2>Why pay more?</h2>
+    </div>
+
+
+  <div>
+    <h3>Info</h3>
+    <table>
+      <tr>
+        <td>
+          Title:    
+        </td>
+        <td>
+          {{book_details[0]}}
+        </td>
+      </tr>
+
+
+     <tr>
+       <td>
+         Author:    
+       </td>
+       <td>
+         {{book_details[1]}}
+       </td>
+     </tr>
+     
+
+
+     <tr>
+       <td>
+         Publishing Date: 
+       </td>
+       <td>
+         {{book_details[2]}}
+       </td>
+     </tr>
+
+
+
+     <tr>
+       <td>
+         Number of pages: 
+       </td>
+       <td>
+         {{book_details[3]}}
+       </td>
+     </tr>
+
+
+
+      <tr>
+       <td>
+         Language:    
+       </td>
+       <td>
+         {{book_details[4]}}
+       </td>
+     </tr>
+
+
+     <tr>
+       <td>
+         Publisher:
+       </td>
+       <td>
+         {{book_details[5]}}
+       </td>
+     </tr>
+   </table>
+
+
+     <p>
+       <!--DESCRIPTION: {{book_details[7]}}-->
+     </p>
+    </div>
+
+
+    <h3>Prices</h3>
+     <ol>
+       
+       <li>
+         <a href="http://www.flipkart.com/search.php?query={{ISBN}}">Flipkart</a>: {{flipkart_info}}
+       </li>
+   
+
+       <li>
+         <a href="http://www.indiaplaza.com/books/{{ISBN}}.htm">Indiaplaza</a>: {{Indiaplaza_info}}
+       </li>
+
+
+       <li>
+         <a href="http://www.infibeam.com/Books/search?q={{ISBN}}">infibeam</a>: {{infibeam_info}}
+       </li>
+
+
+       <li>
+         <a href="http://books.rediff.com/book/ISBN:{{ISBN}}">rediff</a>: {{rediff_info}}
+       </li>
+
+
+       <li>
+         <a href="http://www.nbcindia.com/Search-books.asp?q={{ISBN}}">nbcIndia</a>: {{nbcIndia_info}}
+       </li>
+ 
+
+       <li>
+         <a href="http://www.bookadda.com/search/{{ISBN}}">bookadda</a>: {{bookadda_info}}
+       </li>
+
+
+       <li>
+         <a href="http://www.uread.com/book/isbnnetin/{{ISBN}}">uread</a>: {{uread_info}}
+       </li>
+
+
+       <li>
+         <a href="http://www.homeshop18.com/search/books/{{ISBN}}">homeshop18</a>: {{homeshop18_info}}
+       </li>
+
+
+    </ol>
+    </div>
+
+
+    <div>
+      <p>
+           <img src="{{book_details[6]}}" alt = "{{book_details[0]}}" />
+      </p>
+     <br><br><br>
+
+    <h4>Handcrafted by <a href="https://github.com/AnirudhBhat" >Anirudh Bhat</h4>
+  </body>
+</html>
+
+
+       
