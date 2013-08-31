@@ -3,3 +3,5 @@ Indian Book Price Comparision is a dead simple website where you enter ISBN of t
 Why pay more when you can save yourself some money...
 
 The site is live at http://www.indianbookprice.appspot.com
+
+NOTE: This project is no longer maintained.
